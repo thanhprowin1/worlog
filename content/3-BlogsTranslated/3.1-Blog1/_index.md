@@ -40,4 +40,3 @@ For dev/test environments only used during working hours, the system integrates 
 ## Conclusion
 Optimizing Cloud costs isn't just about choosing a lower-tier instance and enduring a laggy app. A well-architected system requires choosing the right pricing model (Spot Market), designing for failure, storing data in the right places, and automating resource lifecycles (FinOps). 
 
-> **Important Note:** Spot Instances are designed for Dev/Test, batch jobs, and background workers. For Production systems requiring high uptime, combine Spot with On-Demand instances, alongside ALB, Multi-AZ, and Lifecycle hooks to ensure safety.
