@@ -1,6 +1,6 @@
 baseURL = "https://thanhprowin1.github.io/worlog/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 
 # Chuyển Tiếng Việt làm ngôn ngữ mặc định
 defaultContentLanguage = "vi"
