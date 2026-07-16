@@ -1,7 +1,11 @@
 baseURL = "https://thanhprowin1.github.io/worlog/"
 relativeURLs = false
 canonifyURLs = false
-defaultContentLanguage = "en"
+
+# Chuyển Tiếng Việt làm ngôn ngữ mặc định
+defaultContentLanguage = "vi"
+# Bắt buộc đưa tất cả ngôn ngữ vào thư mục con (tạo redirect ở trang chủ)
+defaultContentLanguageInSubdir = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
