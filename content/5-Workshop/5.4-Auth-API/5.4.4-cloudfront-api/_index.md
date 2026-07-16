@@ -94,7 +94,7 @@ You **must forward the `Authorization` header** to API Gateway. If CloudFront st
 {{% /notice %}}
 
 <!-- TODO: screenshot - Create behavior /api/* settings -->
-![Behavior /api/*](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-behavior.png)
+
 
 3. Create behavior. Ensure precedence: `/api/*` is **more specific** than Default (`*`) — CloudFront evaluates specific patterns first.
 
@@ -125,7 +125,6 @@ curl -i -X POST \
 Expect **200** + mock JSON from Step 5.4.2.
 
 <!-- TODO: screenshot - curl qua CloudFront domain 401 + 200 -->
-![Test via CloudFront](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-test.png)
 
 #### Final edge map
 
