@@ -42,7 +42,7 @@ While general-purpose generative AI models (such as ChatGPT or Gemini) can assis
 ### 3. Solution Architecture
 The platform is built using a highly secure, serverless multi-tier AWS architecture to manage user authentication, data caching, verified location grounding, and AI processing.
 
-![Wakan Solution Architecture](/images/2-Proposal/kientruc.jpg)
+![Wakan Solution Architecture](/worlog/images/2-Proposal/kientruc.jpg)
 
 #### AWS Services Used
 - **AWS WAF**: Blocks malicious web traffic, SQL injection, and bots at the HTTP/HTTPS boundary.
