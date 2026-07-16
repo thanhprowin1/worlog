@@ -52,6 +52,6 @@ Community Day connected two halves of the problem: **the model** and **the secur
 
 ### Photos
 
-![Community Day - photo 1](/images/Event1-1.png)
+![Community Day - photo 1](/worlog/images/Event1-1.png)
 
 

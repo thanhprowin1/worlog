@@ -37,7 +37,7 @@ CloudFront becomes the **single entry point** of the Wakan system.
    - Leave **Origin path** empty
 
 <!-- TODO: screenshot - Origin settings khi tạo distribution -->
-![Origin settings](/images/5-Workshop/5.3-Frontend-edge/cf-origin.png)
+![Origin settings](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-origin.png)
 
 3. **Default cache behavior:**
    - **Viewer protocol policy:** Redirect HTTP to HTTPS
@@ -52,14 +52,14 @@ CloudFront becomes the **single entry point** of the Wakan system.
    - **WAF:** Do not enable yet (optional in next sub-step)
 
 <!-- TODO: screenshot - Default cache behavior + Settings -->
-![CloudFront settings](/images/5-Workshop/5.3-Frontend-edge/cf-settings.png)
+![CloudFront settings](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-settings.png)
 
 5. Click **Create distribution**
 
 CloudFront will show a banner: **"The S3 bucket policy needs to be updated"**. Click **Copy policy** — you will paste it into the bucket in the next step.
 
 <!-- TODO: screenshot - banner copy bucket policy sau khi create distribution -->
-![Copy bucket policy banner](/images/5-Workshop/5.3-Frontend-edge/cf-copy-policy.png)
+![Copy bucket policy banner](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-copy-policy.png)
 
 #### Step 3 — Update S3 bucket policy
 
@@ -99,13 +99,13 @@ CloudFront will show a banner: **"The S3 bucket policy needs to be updated"**. C
 2. Wait until **Last modified / Status** shows **Enabled** / **Deployed** (usually 2–5 minutes)
 
 <!-- TODO: screenshot - distribution status Deployed -->
-![Distribution deployed](/images/5-Workshop/5.3-Frontend-edge/cf-deployed.png)
+![Distribution deployed](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-deployed.png)
 
 3. Copy the **Distribution domain name** (e.g. `dxxxxxxxxxxxx.cloudfront.net`)
 4. Open it in a browser — you should see the Wakan frontend
 
 <!-- TODO: screenshot - trình duyệt mở CloudFront domain hiện frontend Wakan -->
-![Frontend via CloudFront](/images/5-Workshop/5.3-Frontend-edge/frontend-live.png)
+![Frontend via CloudFront](/worlog/images/5-Workshop/5.3-Frontend-edge/frontend-live.png)
 
 #### Note about `/api/*` (for later)
 

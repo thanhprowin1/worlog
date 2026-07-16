@@ -15,7 +15,7 @@ Trong workshop này, bạn sẽ triển khai kiến trúc serverless cốt lõi 
 #### Kiến trúc tổng quan
 
 <!-- TODO: screenshot/diagram - kiến trúc tổng quan Wakan -->
-![Kiến trúc Wakan](/images/5-Workshop/5.1-Workshop-overview/architecture.jpg)
+![Kiến trúc Wakan](/worlog/images/5-Workshop/5.1-Workshop-overview/architecture.jpg)
 
 Hệ thống được chia thành 4 lớp:
 

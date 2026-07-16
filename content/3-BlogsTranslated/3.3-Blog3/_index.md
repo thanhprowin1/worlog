@@ -21,7 +21,7 @@ However, real challenges emerge when your system needs to scale out to handle hi
 * **The Solution:** Never store critical uploaded files long-term on EC2 disks. Upload the final results directly to **Amazon S3**.
 * **The Result:** The EC2 disk now only contains static source code. All servers access a centralized S3 repository to fetch and display files seamlessly.
 
-![Stateless Architecture Diagram](/images/Blog3.jpg)
+![Stateless Architecture Diagram](/worlog/images/Blog3.jpg)
 
 ### 2. Isolate Structured Data with Amazon RDS
 * **The Problem:** Installing a database (MySQL, PostgreSQL) alongside the web server consumes massive RAM/CPU resources and poses extreme risks if the OS crashes.

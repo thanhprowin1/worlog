@@ -18,7 +18,7 @@ Remove CloudFront, WAF, and API Gateway first — they sit at the edge and depen
 4. **Delete** the distribution
 
 <!-- TODO: screenshot - distribution Disabled then Delete -->
-![Delete CloudFront](/images/5-Workshop/5.8-Cleanup/cf-delete.png)
+![Delete CloudFront](/worlog/images/5-Workshop/5.8-Cleanup/cf-delete.png)
 
 {{% notice note %}}
 You **cannot** delete a distribution while it is still Enabled. Always Disable → wait → Delete.
@@ -39,7 +39,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 2. **Delete** if no longer used by any distribution
 
 <!-- TODO: screenshot - delete OAC -->
-![Delete OAC](/images/5-Workshop/5.8-Cleanup/oac-delete.png)
+![Delete OAC](/worlog/images/5-Workshop/5.8-Cleanup/oac-delete.png)
 
 #### Step 3 — WAF Web ACL (if created)
 
@@ -48,7 +48,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 3. Open Web ACL `TripAI-Web-Firewall` (or your name) → **Delete**
 
 <!-- TODO: screenshot - Web ACL deleted / empty associations -->
-![Delete WAF](/images/5-Workshop/5.8-Cleanup/waf-delete.png)
+![Delete WAF](/worlog/images/5-Workshop/5.8-Cleanup/waf-delete.png)
 
 #### Step 4 — API Gateway
 
@@ -60,7 +60,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 4. Confirm deletion
 
 <!-- TODO: screenshot - API deleted -->
-![Delete API Gateway](/images/5-Workshop/5.8-Cleanup/apigw-delete.png)
+![Delete API Gateway](/worlog/images/5-Workshop/5.8-Cleanup/apigw-delete.png)
 
 #### Checkpoint
 

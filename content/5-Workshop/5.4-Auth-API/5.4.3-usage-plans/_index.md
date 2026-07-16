@@ -72,7 +72,7 @@ Authorization: <jwt>
    - Burst: `10`
 
 <!-- TODO: screenshot - stage default throttling -->
-![Stage throttling](/images/5-Workshop/5.4-Auth-API/usage-stage-throttle.png)
+![Stage throttling](/worlog/images/5-Workshop/5.4-Auth-API/usage-stage-throttle.png)
 
 #### How this maps to Wakan tiers
 

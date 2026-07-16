@@ -39,7 +39,7 @@ AWS Budgets tracks **AWS service costs**. External AI provider bills (OpenAI, An
 | **Budget scope** | All AWS services (or filter by tag if you tagged resources) |
 
 <!-- TODO: screenshot - Create budget form -->
-![Create budget](/images/5-Workshop/5.7-Security-monitoring/budget-create.png)
+![Create budget](/worlog/images/5-Workshop/5.7-Security-monitoring/budget-create.png)
 
 #### Step 2 — Configure alerts
 
@@ -56,7 +56,7 @@ Add thresholds:
 2. Create budget
 
 <!-- TODO: screenshot - alert thresholds 50/80/100 -->
-![Budget alerts](/images/5-Workshop/5.7-Security-monitoring/budget-alerts.png)
+![Budget alerts](/worlog/images/5-Workshop/5.7-Security-monitoring/budget-alerts.png)
 
 #### Step 3 — (Optional) Tag resources for filtered budgets
 

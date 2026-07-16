@@ -23,7 +23,7 @@ Create a REST API that:
 3. Click **Create API**
 
 <!-- TODO: screenshot - Create REST API -->
-![Create REST API](/images/5-Workshop/5.4-Auth-API/apigw-create.png)
+![Create REST API](/worlog/images/5-Workshop/5.4-Auth-API/apigw-create.png)
 
 #### Step 2 — Create Cognito authorizer
 

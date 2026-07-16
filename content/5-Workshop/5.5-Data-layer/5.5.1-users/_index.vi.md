@@ -51,12 +51,12 @@ Tạo bảng lưu gói dịch vụ và quota còn lại của từng user. Quota
 3. Bấm **Create table**
 
 <!-- TODO: screenshot - form Create table wakan-users -->
-![Tạo bảng wakan-users](/images/5-Workshop/5.5-Data-layer/users-create.png)
+![Tạo bảng wakan-users](/worlog/images/5-Workshop/5.5-Data-layer/users-create.png)
 
 4. Đợi status **Active**
 
 <!-- TODO: screenshot - table Active trong danh sách -->
-![wakan-users Active](/images/5-Workshop/5.5-Data-layer/users-active1.png)
+![wakan-users Active](/worlog/images/5-Workshop/5.5-Data-layer/users-active1.png)
 
 #### Bước 2 — Chèn user mẫu (test)
 
@@ -95,7 +95,7 @@ Tạo bảng lưu gói dịch vụ và quota còn lại của từng user. Quota
 3. Bấm **Create item**
 
 <!-- TODO: screenshot - item Free user trong table -->
-![Item user Free mẫu](/images/5-Workshop/5.5-Data-layer/users-sample-item.png)
+![Item user Free mẫu](/worlog/images/5-Workshop/5.5-Data-layer/users-sample-item.png)
 
 **Lấy Cognito `sub`:**
 

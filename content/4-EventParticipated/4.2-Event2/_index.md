@@ -53,4 +53,4 @@ The Meet Up balanced **mindset** and **practice**: half about how engineers feel
 
 ### Photo
 
-![Meet Up](/images/Event2-1.png)
+![Meet Up](/worlog/images/Event2-1.png)

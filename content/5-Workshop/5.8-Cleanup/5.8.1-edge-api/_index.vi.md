@@ -18,7 +18,7 @@ Xóa CloudFront, WAF và API Gateway trước — chúng nằm ở biên và ph�
 4. **Delete** distribution
 
 <!-- TODO: screenshot - distribution Disabled rồi Delete -->
-![Xóa CloudFront](/images/5-Workshop/5.8-Cleanup/cf-delete.png)
+![Xóa CloudFront](/worlog/images/5-Workshop/5.8-Cleanup/cf-delete.png)
 
 {{% notice note %}}
 **Không** xóa được distribution khi vẫn Enabled. Luôn Disable → đợi → Delete.
@@ -38,7 +38,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 2. **Delete** nếu không còn distribution nào dùng
 
 <!-- TODO: screenshot - xóa OAC -->
-![Xóa OAC](/images/5-Workshop/5.8-Cleanup/oac-delete.png)
+![Xóa OAC](/worlog/images/5-Workshop/5.8-Cleanup/oac-delete.png)
 
 #### Bước 3 — WAF Web ACL (nếu đã tạo)
 
@@ -47,7 +47,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 3. Mở Web ACL `TripAI-Web-Firewall` (hoặc tên bạn dùng) → **Delete**
 
 <!-- TODO: screenshot - Web ACL đã xóa / không association -->
-![Xóa WAF](/images/5-Workshop/5.8-Cleanup/waf-delete.png)
+![Xóa WAF](/worlog/images/5-Workshop/5.8-Cleanup/waf-delete.png)
 
 #### Bước 4 — API Gateway
 
@@ -59,7 +59,7 @@ aws cloudfront delete-distribution --id E1234567890ABC --if-match <ETAG>
 4. Confirm
 
 <!-- TODO: screenshot - API đã xóa -->
-![Xóa API Gateway](/images/5-Workshop/5.8-Cleanup/apigw-delete.png)
+![Xóa API Gateway](/worlog/images/5-Workshop/5.8-Cleanup/apigw-delete.png)
 
 #### Checkpoint
 

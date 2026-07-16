@@ -26,7 +26,7 @@ To solve this economic problem, my project skips traditional On-Demand plans for
 * **Solution (Stateless Design):** The key is to absolutely never store critical data directly on the local EC2 disk. All uploaded files go to Amazon S3, the database runs on Amazon RDS, and logs are centralized in CloudWatch Logs.
 * **Result:** The application is entirely **Stateless**. Even if AWS reclaims the server, the system loses no core data.
 
-![Architecture Diagram: Stateless Application with S3, RDS, CloudWatch](/images/Blog1.jpg)
+![Architecture Diagram: Stateless Application with S3, RDS, CloudWatch](/worlog/images/Blog1.jpg)
 
 ### 3. Automated Infrastructure Recovery with EC2 Auto Scaling
 To prevent system downtime, EC2 Spot instances are placed within an **Auto Scaling Group (ASG)**. 

@@ -21,7 +21,7 @@ Tuy nhiên, thách thức sẽ xuất hiện khi hệ thống cần mở rộng 
 * **Giải pháp:** Không lưu file upload quan trọng lâu dài trên ổ đĩa EC2. Hãy upload kết quả cuối cùng lên **Amazon S3**.
 * **Kết quả:** Ổ đĩa của EC2 giờ chỉ chứa source code tĩnh. Toàn bộ các máy chủ truy cập chung vào kho lưu trữ S3 tập trung để lấy và hiển thị file.
 
-![Sơ đồ kiến trúc ứng dụng Stateless](/images/Blog3.jpg)
+![Sơ đồ kiến trúc ứng dụng Stateless](/worlog/images/Blog3.jpg)
 
 ### 2. Độc lập tầng dữ liệu có cấu trúc với Amazon RDS
 * **Vấn đề:** Cài đặt Database chung với Web server sẽ ngốn rất nhiều tài nguyên và rủi ro cao nếu hệ điều hành bị crash.

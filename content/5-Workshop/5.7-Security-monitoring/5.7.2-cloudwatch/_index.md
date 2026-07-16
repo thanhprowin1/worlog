@@ -38,7 +38,7 @@ By default CloudWatch Logs never expire (cost accumulates). Set retention:
 4. Repeat for `/aws/lambda/wakan-ai-processor`
 
 <!-- TODO: screenshot - log retention set to 7 days -->
-![Log retention](/images/5-Workshop/5.7-Security-monitoring/cw-retention.png)
+![Log retention](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-retention.png)
 
 CLI alternative:
 
@@ -71,7 +71,7 @@ aws logs put-retention-policy \
 5. Alarm name: `wakan-orchestrator-errors`
 
 <!-- TODO: screenshot - alarm create form -->
-![Create alarm](/images/5-Workshop/5.7-Security-monitoring/cw-alarm.png)
+![Create alarm](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-alarm.png)
 
 6. Confirm the SNS subscription email
 
@@ -133,7 +133,7 @@ Grant the Orchestrator role:
 3. Save dashboard
 
 <!-- TODO: screenshot - Wakan-Overview dashboard -->
-![CloudWatch dashboard](/images/5-Workshop/5.7-Security-monitoring/cw-dashboard.png)
+![CloudWatch dashboard](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-dashboard.png)
 
 #### Step 5 — Sample request log inspection
 
@@ -151,7 +151,7 @@ Never log: API keys, full Authorization headers, precise GPS coordinates, or raw
 {{% /notice %}}
 
 <!-- TODO: screenshot - clean structured log (no secrets) -->
-![Clean logs](/images/5-Workshop/5.7-Security-monitoring/cw-logs-clean.png)
+![Clean logs](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-logs-clean.png)
 
 #### Checkpoint
 

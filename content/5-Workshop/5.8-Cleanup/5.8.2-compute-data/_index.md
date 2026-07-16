@@ -18,7 +18,7 @@ Delete Lambda functions, Cognito, DynamoDB tables, Secrets Manager secrets, and 
 3. Confirm each deletion
 
 <!-- TODO: screenshot - Lambda functions list empty of wakan-* -->
-![Delete Lambdas](/images/5-Workshop/5.8-Cleanup/lambda-delete.png)
+![Delete Lambdas](/worlog/images/5-Workshop/5.8-Cleanup/lambda-delete.png)
 
 ```bash
 aws lambda delete-function --function-name wakan-orchestrator --region ap-southeast-1
@@ -32,7 +32,7 @@ aws lambda delete-function --function-name wakan-ai-processor --region ap-southe
 3. **Delete user pool** → type confirm name
 
 <!-- TODO: screenshot - user pool deleted -->
-![Delete Cognito](/images/5-Workshop/5.8-Cleanup/cognito-delete.png)
+![Delete Cognito](/worlog/images/5-Workshop/5.8-Cleanup/cognito-delete.png)
 
 {{% notice note %}}
 You may need to delete the **domain** before the pool can be removed. App clients are deleted with the pool.
@@ -67,7 +67,7 @@ aws dynamodb delete-table --table-name wakan-verified-places --region ap-southea
 3. For lab: choose **Force delete without recovery** (or set short recovery window 7 days)
 
 <!-- TODO: screenshot - secret scheduled for deletion / deleted -->
-![Delete secret](/images/5-Workshop/5.8-Cleanup/secrets-delete.png)
+![Delete secret](/worlog/images/5-Workshop/5.8-Cleanup/secrets-delete.png)
 
 ```bash
 aws secretsmanager delete-secret \
@@ -85,7 +85,7 @@ S3 buckets must be **empty** before deletion.
 3. Bucket → **Delete** → type bucket name
 
 <!-- TODO: screenshot - empty bucket then delete -->
-![Delete S3](/images/5-Workshop/5.8-Cleanup/s3-delete.png)
+![Delete S3](/worlog/images/5-Workshop/5.8-Cleanup/s3-delete.png)
 
 ```bash
 # Empty then delete (careful — irreversible)

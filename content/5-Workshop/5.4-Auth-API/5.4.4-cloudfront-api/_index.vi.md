@@ -37,7 +37,7 @@ xxxxxxxxxx.execute-api.ap-southeast-1.amazonaws.com
      *(chỉ hữu ích nếu sau này validate ở API Gateway / Lambda)*
 
 <!-- TODO: screenshot - Create origin API Gateway -->
-![API Gateway origin](/images/5-Workshop/5.4-Auth-API/cf-api-origin.png)
+![API Gateway origin](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-origin.png)
 
 {{% notice note %}}
 **Path mapping (khuyến nghị lab)**
@@ -69,7 +69,7 @@ Nếu ở 5.4.2 bạn mới tạo `/itinerary`:
 4. Bật CORS nếu cần → **Deploy** lại `prod`
 
 <!-- TODO: screenshot - resource tree /api/itinerary -->
-![API resource /api/itinerary](/images/5-Workshop/5.4-Auth-API/apigw-api-resource.png)
+![API resource /api/itinerary](/worlog/images/5-Workshop/5.4-Auth-API/apigw-api-resource.png)
 
 #### Bước 3 — Tạo cache behavior `/api/*`
 

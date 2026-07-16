@@ -18,7 +18,7 @@ Xóa IAM role còn sót, artifact CloudWatch, Budgets (tùy chọn), và chạy 
 3. Nếu có custom policy workshop riêng, xóa ở **Policies** khi không còn attach
 
 <!-- TODO: screenshot - IAM roles đã dọn -->
-![Xóa IAM roles](/images/5-Workshop/5.8-Cleanup/iam-delete.png)
+![Xóa IAM roles](/worlog/images/5-Workshop/5.8-Cleanup/iam-delete.png)
 
 {{% notice note %}}
 Không xóa được role còn gắn Lambda. Hãy xóa function (Bước 5.8.2) trước.
@@ -39,7 +39,7 @@ Không xóa được role còn gắn Lambda. Hãy xóa function (Bước 5.8.2) 
 4. **Log groups** → xóa `/aws/lambda/TripAIBackend`
 
 <!-- TODO: screenshot - alarms/dashboard/log groups đã dọn -->
-![Dọn CloudWatch](/images/5-Workshop/5.8-Cleanup/cw-clean.png)
+![Dọn CloudWatch](/worlog/images/5-Workshop/5.8-Cleanup/cw-clean.png)
 
 ```bash
 aws logs delete-log-group --log-group-name /aws/lambda/wakan-orchestrator --region ap-southeast-1

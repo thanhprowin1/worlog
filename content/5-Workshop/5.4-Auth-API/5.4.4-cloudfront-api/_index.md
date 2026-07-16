@@ -38,7 +38,7 @@ You will **not** put `/prod` into the origin domain field — stage path is hand
      *(only useful if you later validate it in API Gateway / Lambda)*
 
 <!-- TODO: screenshot - Create origin API Gateway -->
-![API Gateway origin](/images/5-Workshop/5.4-Auth-API/cf-api-origin.png)
+![API Gateway origin](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-origin.png)
 
 {{% notice note %}}
 **Path mapping (lab recommendation)**
@@ -72,7 +72,7 @@ If you created only `/itinerary` in 5.4.2:
 4. Enable CORS if needed → **Deploy** to `prod` again
 
 <!-- TODO: screenshot - resource tree /api/itinerary -->
-![API resource /api/itinerary](/images/5-Workshop/5.4-Auth-API/apigw-api-resource.png)
+![API resource /api/itinerary](/worlog/images/5-Workshop/5.4-Auth-API/apigw-api-resource.png)
 
 #### Step 3 — Create cache behavior for `/api/*`
 
@@ -94,7 +94,7 @@ You **must forward the `Authorization` header** to API Gateway. If CloudFront st
 {{% /notice %}}
 
 <!-- TODO: screenshot - Create behavior /api/* settings -->
-![Behavior /api/*](/images/5-Workshop/5.4-Auth-API/cf-api-behavior.png)
+![Behavior /api/*](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-behavior.png)
 
 3. Create behavior. Ensure precedence: `/api/*` is **more specific** than Default (`*`) — CloudFront evaluates specific patterns first.
 
@@ -125,7 +125,7 @@ curl -i -X POST \
 Expect **200** + mock JSON from Step 5.4.2.
 
 <!-- TODO: screenshot - curl qua CloudFront domain 401 + 200 -->
-![Test via CloudFront](/images/5-Workshop/5.4-Auth-API/cf-api-test.png)
+![Test via CloudFront](/worlog/images/5-Workshop/5.4-Auth-API/cf-api-test.png)
 
 #### Final edge map
 

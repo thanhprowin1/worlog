@@ -38,7 +38,7 @@ Mặc định CloudWatch Logs không hết hạn (chi phí tích lũy). Đặt r
 4. Làm tương tự cho `/aws/lambda/wakan-ai-processor`
 
 <!-- TODO: screenshot - log retention set to 7 days -->
-![Log retention](/images/5-Workshop/5.7-Security-monitoring/cw-retention.png)
+![Log retention](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-retention.png)
 
 CLI:
 
@@ -71,7 +71,7 @@ aws logs put-retention-policy \
 5. Alarm name: `wakan-orchestrator-errors`
 
 <!-- TODO: screenshot - alarm create form -->
-![Tạo alarm](/images/5-Workshop/5.7-Security-monitoring/cw-alarm.png)
+![Tạo alarm](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-alarm.png)
 
 6. Confirm email SNS subscription
 
@@ -132,7 +132,7 @@ Cấp quyền cho role Orchestrator:
 3. Save dashboard
 
 <!-- TODO: screenshot - Wakan-Overview dashboard -->
-![CloudWatch dashboard](/images/5-Workshop/5.7-Security-monitoring/cw-dashboard.png)
+![CloudWatch dashboard](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-dashboard.png)
 
 #### Bước 5 — Kiểm tra log mẫu
 
@@ -150,7 +150,7 @@ Không bao giờ log: API key, header Authorization đầy đủ, tọa độ GP
 {{% /notice %}}
 
 <!-- TODO: screenshot - clean structured log (no secrets) -->
-![Log sạch](/images/5-Workshop/5.7-Security-monitoring/cw-logs-clean.png)
+![Log sạch](/worlog/images/5-Workshop/5.7-Security-monitoring/cw-logs-clean.png)
 
 #### Checkpoint
 

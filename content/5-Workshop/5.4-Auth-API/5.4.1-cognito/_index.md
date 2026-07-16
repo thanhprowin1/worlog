@@ -32,12 +32,12 @@ Create a Cognito User Pool and App Client so Wakan users can sign up / sign in a
    - Authentication flows: allow `ALLOW_USER_SRP_AUTH`, `ALLOW_REFRESH_TOKEN_AUTH` (and Hosted UI if enabled)
 
 <!-- TODO: screenshot - Create user pool / App client settings -->
-![Create Cognito User Pool](/images/5-Workshop/5.4-Auth-API/cognito-create.png)
+![Create Cognito User Pool](/worlog/images/5-Workshop/5.4-Auth-API/cognito-create.png)
 
 7. Review → **Create user pool**
 
 <!-- TODO: screenshot - User pool overview sau khi tạo -->
-![User pool created](/images/5-Workshop/5.4-Auth-API/cognito-created.png)
+![User pool created](/worlog/images/5-Workshop/5.4-Auth-API/cognito-created.png)
 
 #### Step 2 — Configure Hosted UI (recommended)
 
@@ -58,7 +58,7 @@ Hosted UI gives you a ready-made login page without writing auth UI.
    - **OpenID Connect scopes:** `openid`, `email`, `profile`
 
 <!-- TODO: screenshot - Hosted UI domain + callback URLs -->
-![Hosted UI settings](/images/5-Workshop/5.4-Auth-API/cognito-hosted-ui.png)
+![Hosted UI settings](/worlog/images/5-Workshop/5.4-Auth-API/cognito-hosted-ui.png)
 
 4. Save changes
 
@@ -69,7 +69,7 @@ Hosted UI gives you a ready-made login page without writing auth UI.
 3. Sign in once via Hosted UI and change password if required
 
 <!-- TODO: screenshot - user list với test user -->
-![Test user](/images/5-Workshop/5.4-Auth-API/cognito-test-user.png)
+![Test user](/worlog/images/5-Workshop/5.4-Auth-API/cognito-test-user.png)
 
 #### Step 4 — Save identifiers (you will need them later)
 

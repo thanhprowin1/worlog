@@ -30,7 +30,7 @@ Tạo **Lambda AI Processor** có trách nhiệm:
    - Encryption: AWS managed key (mặc định) đủ cho lab
 
 <!-- TODO: screenshot - Secrets Manager create secret -->
-![Tạo secret](/images/5-Workshop/5.6-Business-logic/secrets-create1.png)
+![Tạo secret](/worlog/images/5-Workshop/5.6-Business-logic/secrets-create1.png)
 
 3. Bấm **Store**
 
@@ -90,7 +90,7 @@ Lưu ý: AI Processor **không** cần quyền ghi `wakan-users` hay `wakan-cach
    - **Role:** role AI Processor ở trên
 
 <!-- TODO: screenshot - Create AI Processor function + timeout -->
-![Tạo AI Processor](/images/5-Workshop/5.6-Business-logic/ai-create.png)
+![Tạo AI Processor](/worlog/images/5-Workshop/5.6-Business-logic/ai-create.png)
 
 #### Bước 4 — Environment variables
 

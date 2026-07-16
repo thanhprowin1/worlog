@@ -21,7 +21,7 @@ A familiar scenario: you create an EC2 instance for a lab, spin up RDS to test a
 * **The Solution:** Use **AWS Budgets** to set a fixed monthly budget (e.g., a $10/month limit for a lab account).
 * **Optimization:** This service doesn't just alert you based on Actual costs, but also Forecasted costs. If you've only spent $2, but the algorithm forecasts you'll exceed the $10 threshold by month's end, you will receive an early warning email.
 
-![AWS Budgets Dashboard](/images/Blog2.jpg)
+![AWS Budgets Dashboard](/worlog/images/Blog2.jpg)
 
 ### 2. Detect Irregularities with AWS Cost Anomaly Detection
 * **Core Risk:** With a new account, forecasted alerts might not be highly accurate initially. If your Access Key is leaked or a script provisions expensive resources by mistake, costs will spike rapidly before a Budget Alert triggers.

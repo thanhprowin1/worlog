@@ -15,7 +15,7 @@ In this workshop, you will deploy the core serverless architecture of **Wakan** 
 #### Architecture at a glance
 
 <!-- TODO: screenshot/diagram - kiến trúc tổng quan Wakan -->
-![Wakan architecture](/images/5-Workshop/5.1-Workshop-overview/architecture.jpg)
+![Wakan architecture](/worlog/images/5-Workshop/5.1-Workshop-overview/architecture.jpg)
 
 The system is organized into 4 layers:
 

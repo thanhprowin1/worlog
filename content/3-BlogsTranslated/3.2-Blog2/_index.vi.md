@@ -21,7 +21,7 @@ Khi mới làm quen với AWS, nỗi lo lớn nhất của nhiều bạn không 
 * **Giải pháp:** Sử dụng **AWS Budgets** để thiết lập ngân sách cố định, ví dụ đặt hạn mức $10/tháng.
 * **Điểm tối ưu:** Dịch vụ này cảnh báo dựa trên cả chi phí thực tế (Actual) và chi phí dự báo (Forecasted). Dù mới tiêu hết $2 nhưng nếu hệ thống dự báo cuối tháng vượt ngưỡng $10, bạn vẫn nhận được cảnh báo sớm.
 
-![Bảng điều khiển AWS Budgets](/images/Blog2.jpg)
+![Bảng điều khiển AWS Budgets](/worlog/images/Blog2.jpg)
 
 ### 2. Phát hiện bất thường bằng AWS Cost Anomaly Detection
 * **Rủi ro cốt lõi:** Nếu bạn bị lộ Access Key hoặc chạy nhầm script tạo hàng loạt dịch vụ đắt tiền, chi phí sẽ tăng vọt (Spike) cực nhanh trước khi kịp kích hoạt Budget Alert.

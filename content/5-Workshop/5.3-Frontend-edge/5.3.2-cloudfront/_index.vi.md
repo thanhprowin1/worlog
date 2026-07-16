@@ -37,7 +37,7 @@ CloudFront trở thành **điểm truy cập duy nhất** của hệ thống Wak
    - Để trống **Origin path**
 
 <!-- TODO: screenshot - Origin settings khi tạo distribution -->
-![Origin settings](/images/5-Workshop/5.3-Frontend-edge/cf-origin.png)
+![Origin settings](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-origin.png)
 
 3. **Default cache behavior:**
    - **Viewer protocol policy:** Redirect HTTP to HTTPS
@@ -52,14 +52,14 @@ CloudFront trở thành **điểm truy cập duy nhất** của hệ thống Wak
    - **WAF:** chưa bật (tùy chọn ở bước sau)
 
 <!-- TODO: screenshot - Default cache behavior + Settings -->
-![CloudFront settings](/images/5-Workshop/5.3-Frontend-edge/cf-settings.png)
+![CloudFront settings](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-settings.png)
 
 5. Bấm **Create distribution**
 
 CloudFront sẽ hiện banner: **"The S3 bucket policy needs to be updated"**. Bấm **Copy policy** — bạn sẽ dán vào bucket ở bước tiếp theo.
 
 <!-- TODO: screenshot - banner copy bucket policy sau khi create distribution -->
-![Copy bucket policy banner](/images/5-Workshop/5.3-Frontend-edge/cf-copy-policy.png)
+![Copy bucket policy banner](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-copy-policy.png)
 
 #### Bước 3 — Cập nhật S3 bucket policy
 
@@ -99,13 +99,13 @@ CloudFront sẽ hiện banner: **"The S3 bucket policy needs to be updated"**. B
 2. Đợi **Status** chuyển sang **Enabled / Deployed** (thường 2–5 phút)
 
 <!-- TODO: screenshot - distribution status Deployed -->
-![Distribution deployed](/images/5-Workshop/5.3-Frontend-edge/cf-deployed.png)
+![Distribution deployed](/worlog/images/5-Workshop/5.3-Frontend-edge/cf-deployed.png)
 
 3. Copy **Distribution domain name** (ví dụ `dxxxxxxxxxxxx.cloudfront.net`)
 4. Mở trên trình duyệt — bạn sẽ thấy frontend Wakan
 
 <!-- TODO: screenshot - trình duyệt mở CloudFront domain hiện frontend Wakan -->
-![Frontend qua CloudFront](/images/5-Workshop/5.3-Frontend-edge/frontend-live.png)
+![Frontend qua CloudFront](/worlog/images/5-Workshop/5.3-Frontend-edge/frontend-live.png)
 
 #### Ghi chú về `/api/*` (làm sau)
 

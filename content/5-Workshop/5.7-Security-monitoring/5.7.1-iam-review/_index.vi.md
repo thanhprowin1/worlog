@@ -34,7 +34,7 @@ Rà soát và siết chặt IAM role để mỗi thành phần chỉ có quyền
 ```
 
 <!-- TODO: screenshot - Orchestrator IAM policy -->
-![IAM Orchestrator](/images/5-Workshop/5.7-Security-monitoring/iam-orchestrator.png)
+![IAM Orchestrator](/worlog/images/5-Workshop/5.7-Security-monitoring/iam-orchestrator.png)
 
 #### Bước 2 — Xác minh role AI Processor
 

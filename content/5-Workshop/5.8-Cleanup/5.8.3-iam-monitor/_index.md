@@ -18,7 +18,7 @@ Remove leftover IAM roles, CloudWatch artifacts, optional Budgets, and run a fin
 3. If you created a custom workshop policy, delete it from **Policies** if unused
 
 <!-- TODO: screenshot - IAM roles cleaned -->
-![Delete IAM roles](/images/5-Workshop/5.8-Cleanup/iam-delete.png)
+![Delete IAM roles](/worlog/images/5-Workshop/5.8-Cleanup/iam-delete.png)
 
 {{% notice note %}}
 You cannot delete a role still attached to a Lambda. Delete functions (Step 5.8.2) first.
@@ -39,7 +39,7 @@ You cannot delete a role still attached to a Lambda. Delete functions (Step 5.8.
 4. **Log groups** → delete  `/aws/lambda/TripAIBackend`
 
 <!-- TODO: screenshot - alarms/dashboard/log groups cleaned -->
-![Clean CloudWatch](/images/5-Workshop/5.8-Cleanup/cw-clean.png)
+![Clean CloudWatch](/worlog/images/5-Workshop/5.8-Cleanup/cw-clean.png)
 
 ```bash
 aws logs delete-log-group --log-group-name /aws/lambda/wakan-orchestrator --region ap-southeast-1

@@ -38,7 +38,7 @@ AWS Budgets theo dõi **chi phí dịch vụ AWS**. Hóa đơn AI provider ngoà
 | **Budget scope** | All AWS services (hoặc filter theo tag nếu đã tag resource) |
 
 <!-- TODO: screenshot - Create budget form -->
-![Tạo budget](/images/5-Workshop/5.7-Security-monitoring/budget-create.png)
+![Tạo budget](/worlog/images/5-Workshop/5.7-Security-monitoring/budget-create.png)
 
 #### Bước 2 — Cấu hình alert
 
@@ -55,7 +55,7 @@ Thêm ngưỡng:
 2. Create budget
 
 <!-- TODO: screenshot - alert thresholds 50/80/100 -->
-![Budget alerts](/images/5-Workshop/5.7-Security-monitoring/budget-alerts.png)
+![Budget alerts](/worlog/images/5-Workshop/5.7-Security-monitoring/budget-alerts.png)
 
 #### Bước 3 — (Tùy chọn) Tag resource cho budget lọc
 

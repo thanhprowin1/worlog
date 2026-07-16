@@ -76,7 +76,7 @@ Least privilege:
 Note: AI Processor does **not** need write access to `wakan-users` or `wakan-cache` — that stays with Orchestrator.
 
 <!-- TODO: screenshot - IAM role AI Processor -->
-![AI Processor IAM role](/images/5-Workshop/5.6-Business-logic/ai-role.png)
+![AI Processor IAM role](/worlog/images/5-Workshop/5.6-Business-logic/ai-role.png)
 
 #### Step 3 — Create Lambda function
 
@@ -89,7 +89,7 @@ Note: AI Processor does **not** need write access to `wakan-users` or `wakan-cac
    - **Role:** AI Processor role above
 
 <!-- TODO: screenshot - Create AI Processor function + timeout -->
-![Create AI Processor](/images/5-Workshop/5.6-Business-logic/ai-create.png)
+![Create AI Processor](/worlog/images/5-Workshop/5.6-Business-logic/ai-create.png)
 
 #### Step 4 — Environment variables
 

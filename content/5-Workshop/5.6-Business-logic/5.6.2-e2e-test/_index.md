@@ -90,7 +90,7 @@ curl -i -X POST \
 **Expected:** `429` with message about daily quota
 
 <!-- TODO: screenshot - 429 quota exceeded -->
-![E2E 429](/images/5-Workshop/5.6-Business-logic/e2e-429.png)
+![E2E 429](/worlog/images/5-Workshop/5.6-Business-logic/e2e-429.png)
 
 #### Test 4 — CloudWatch logs
 
@@ -101,7 +101,7 @@ curl -i -X POST \
 3. Confirm no secret values appear in logs
 
 <!-- TODO: screenshot - CloudWatch log streams without secrets -->
-![CloudWatch logs](/images/5-Workshop/5.6-Business-logic/e2e-logs.png)
+![CloudWatch logs](/worlog/images/5-Workshop/5.6-Business-logic/e2e-logs.png)
 
 #### Troubleshooting
 

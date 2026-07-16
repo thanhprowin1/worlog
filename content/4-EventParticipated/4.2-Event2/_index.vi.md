@@ -53,4 +53,4 @@ Meet Up cân bằng **đầu óc** và **thực hành**: một nửa nói về c
 
 ### Ảnh tại sự kiện
 
-![Meet Up](/images/Event2-1.png)
+![Meet Up](/worlog/images/Event2-1.png)

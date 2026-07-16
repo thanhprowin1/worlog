@@ -24,7 +24,7 @@ This step is **optional** for the MVP. You can skip it and continue to Step 5.4 
    - **CloudWatch metric name:** `wakanWebAcl`
 
 <!-- TODO: screenshot - form Create web ACL (resource type CloudFront) -->
-![Create Web ACL](/images/5-Workshop/5.3-Frontend-edge/waf-create.png)
+![Create Web ACL](/worlog/images/5-Workshop/5.3-Frontend-edge/waf-create.png)
 
 3. Click **Next**
 
@@ -45,7 +45,7 @@ For each rule group:
 - Keep capacity within the Web ACL limit (1,500 WCU by default)
 
 <!-- TODO: screenshot - chọn managed rule groups -->
-![Managed rules](/images/5-Workshop/5.3-Frontend-edge/waf-rules.png)
+![Managed rules](/worlog/images/5-Workshop/5.3-Frontend-edge/waf-rules.png)
 
 Click **Add rules** → **Next**.
 
@@ -56,7 +56,7 @@ Click **Add rules** → **Next**.
 2. Review settings → **Create web ACL**
 
 <!-- TODO: screenshot - Web ACL created successfully -->
-![Web ACL created](/images/5-Workshop/5.3-Frontend-edge/waf-created.png)
+![Web ACL created](/worlog/images/5-Workshop/5.3-Frontend-edge/waf-created.png)
 
 #### Step 4 — Associate with CloudFront
 
@@ -67,7 +67,7 @@ Click **Add rules** → **Next**.
 Alternatively, from **CloudFront** → your distribution → **Security** → **Edit** → choose the Web ACL `TripAI-Web-Firewall` → Save.
 
 <!-- TODO: screenshot - Web ACL đã associate với CloudFront distribution -->
-![WAF associated](/images/5-Workshop/5.3-Frontend-edge/waf-associated.png)
+![WAF associated](/worlog/images/5-Workshop/5.3-Frontend-edge/waf-associated.png)
 
 #### Step 5 — Quick verification
 

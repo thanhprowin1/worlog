@@ -42,7 +42,7 @@ Khi sử dụng các mô hình AI dạng chat tự do (như ChatGPT hay Gemini),
 ### 3. Kiến trúc giải pháp
 Hệ thống được thiết kế theo mô hình Serverless trên AWS nhằm đảm bảo tính bảo mật và khả năng co giãn tự động.
 
-![Kiến trúc hệ thống Wakan](/images/2-Proposal/kientruc.jpg)
+![Kiến trúc hệ thống Wakan](/worlog/images/2-Proposal/kientruc.jpg)
 
 #### Dịch vụ AWS sử dụng
 - **AWS WAF**: Lọc các request bất thường, chống bot và các cuộc tấn công tầng ứng dụng (HTTP/HTTPS).

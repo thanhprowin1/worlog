@@ -23,7 +23,7 @@ Tạo REST API có:
 3. Bấm **Create API**
 
 <!-- TODO: screenshot - Create REST API -->
-![Tạo REST API](/images/5-Workshop/5.4-Auth-API/apigw-create.png)
+![Tạo REST API](/worlog/images/5-Workshop/5.4-Auth-API/apigw-create.png)
 
 #### Bước 2 — Tạo Cognito authorizer
 

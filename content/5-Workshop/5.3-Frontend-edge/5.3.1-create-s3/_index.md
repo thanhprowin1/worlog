@@ -23,12 +23,12 @@ Create a private S3 bucket and upload the pre-built Wakan frontend. The bucket w
    - **Default encryption:** SSE-S3 (Amazon S3 managed keys)
 
 <!-- TODO: screenshot - form Create bucket với các option trên -->
-![Create S3 bucket](/images/5-Workshop/5.3-Frontend-edge/create-bucket.png)
+![Create S3 bucket](/worlog/images/5-Workshop/5.3-Frontend-edge/create-bucket.png)
 
 3. Click **Create bucket**
 
 <!-- TODO: screenshot - bucket đã tạo thành công trong danh sách -->
-![Bucket created](/images/5-Workshop/5.3-Frontend-edge/TaoXongS3.png)
+![Bucket created](/worlog/images/5-Workshop/5.3-Frontend-edge/TaoXongS3.png)
 
 #### Step 2 — Upload frontend assets
 
@@ -39,7 +39,7 @@ Create a private S3 bucket and upload the pre-built Wakan frontend. The bucket w
 4. Click **Upload** and wait until the status is **Succeeded**
 
 <!-- TODO: screenshot - danh sách file đã upload trong bucket -->
-![Uploaded files](/images/5-Workshop/5.3-Frontend-edge/uploaded-files.png)
+![Uploaded files](/worlog/images/5-Workshop/5.3-Frontend-edge/uploaded-files.png)
 
 Alternatively, upload via AWS CLI:
 

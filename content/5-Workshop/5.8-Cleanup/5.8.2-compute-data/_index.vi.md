@@ -18,7 +18,7 @@ Xóa Lambda, Cognito, bảng DynamoDB, secret Secrets Manager và S3 bucket fron
 3. Confirm từng lần xóa
 
 <!-- TODO: screenshot - danh sách Lambda không còn wakan-* -->
-![Xóa Lambda](/images/5-Workshop/5.8-Cleanup/lambda-delete.png)
+![Xóa Lambda](/worlog/images/5-Workshop/5.8-Cleanup/lambda-delete.png)
 
 ```bash
 aws lambda delete-function --function-name wakan-orchestrator --region ap-southeast-1
@@ -32,7 +32,7 @@ aws lambda delete-function --function-name wakan-ai-processor --region ap-southe
 3. **Delete user pool** → gõ tên để confirm
 
 <!-- TODO: screenshot - user pool đã xóa -->
-![Xóa Cognito](/images/5-Workshop/5.8-Cleanup/cognito-delete.png)
+![Xóa Cognito](/worlog/images/5-Workshop/5.8-Cleanup/cognito-delete.png)
 
 {{% notice note %}}
 Có thể cần xóa **domain** trước khi xóa pool. App client sẽ bị xóa cùng pool.
@@ -68,7 +68,7 @@ aws dynamodb delete-table --table-name wakan-verified-places --region ap-southea
 3. Lab: chọn **Force delete without recovery** (hoặc recovery window 7 ngày)
 
 <!-- TODO: screenshot - secret đã xóa / pending deletion -->
-![Xóa secret](/images/5-Workshop/5.8-Cleanup/secrets-delete.png)
+![Xóa secret](/worlog/images/5-Workshop/5.8-Cleanup/secrets-delete.png)
 
 ```bash
 aws secretsmanager delete-secret \
@@ -86,7 +86,7 @@ Bucket phải **rỗng** trước khi xóa.
 3. Bucket → **Delete** → gõ tên bucket
 
 <!-- TODO: screenshot - empty bucket rồi delete -->
-![Xóa S3](/images/5-Workshop/5.8-Cleanup/s3-delete.png)
+![Xóa S3](/worlog/images/5-Workshop/5.8-Cleanup/s3-delete.png)
 
 ```bash
 # Cẩn thận — không hoàn tác

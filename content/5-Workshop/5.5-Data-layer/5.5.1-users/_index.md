@@ -52,12 +52,12 @@ Create the table that stores each user’s plan and remaining daily quota. Quota
 3. Click **Create table**
 
 <!-- TODO: screenshot - form Create table wakan-users -->
-![Create wakan-users table](/images/5-Workshop/5.5-Data-layer/users-create.png)
+![Create wakan-users table](/worlog/images/5-Workshop/5.5-Data-layer/users-create.png)
 
 4. Wait until status is **Active**
 
 <!-- TODO: screenshot - table Active trong danh sách -->
-![wakan-users Active](/images/5-Workshop/5.5-Data-layer/users-active.png)
+![wakan-users Active](/worlog/images/5-Workshop/5.5-Data-layer/users-active.png)
 
 #### Step 2 — Insert a sample user (test)
 
@@ -96,7 +96,7 @@ Create the table that stores each user’s plan and remaining daily quota. Quota
 3. Click **Create item**
 
 <!-- TODO: screenshot - item Free user trong table -->
-![Sample Free user item](/images/5-Workshop/5.5-Data-layer/users-sample-item.png)
+![Sample Free user item](/worlog/images/5-Workshop/5.5-Data-layer/users-sample-item.png)
 
 **How to get Cognito `sub`:**
 

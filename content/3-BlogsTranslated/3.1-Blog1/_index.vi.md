@@ -26,7 +26,7 @@ Việc duy trì các server On-Demand cho các môi trường thử nghiệm (De
 * **Giải pháp (Thiết kế Stateless):** Điểm mấu chốt là tuyệt đối không lưu dữ liệu quan trọng trực tiếp trên ổ đĩa cục bộ của EC2. Toàn bộ file đẩy sang Amazon S3, Database chạy trên Amazon RDS, và Log đẩy ra CloudWatch Logs.
 * **Kết quả:** Ứng dụng hoàn toàn mang tính chất **Stateless**, tắt đi và khởi động lại nhanh chóng mà không mất dữ liệu.
 
-![Sơ đồ kiến trúc Stateless](/images/Blog1.jpg)
+![Sơ đồ kiến trúc Stateless](/worlog/images/Blog1.jpg)
 
 ### 3. Tự động hóa khôi phục hạ tầng bằng EC2 Auto Scaling
 Mình đặt EC2 Spot vào trong một **Auto Scaling Group (ASG)** và kích hoạt tính năng **Capacity Rebalancing**. 
