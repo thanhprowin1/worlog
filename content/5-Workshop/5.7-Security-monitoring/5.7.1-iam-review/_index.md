@@ -85,7 +85,7 @@ Example inline policy for non-admin users:
 This forces deliberate action before deleting resources — useful during presentations or team workshops.
 
 <!-- TODO: screenshot - SCP / deny policy attached -->
-![Deny policy](/worlog/images/5-Workshop/5.7-Security-monitoring/iam-deny.png)
+
 
 
 For production, rotate the AI API key regularly and store it as a versioned secret:

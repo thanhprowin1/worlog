@@ -76,7 +76,7 @@ Least privilege:
 Note: AI Processor does **not** need write access to `wakan-users` or `wakan-cache` — that stays with Orchestrator.
 
 <!-- TODO: screenshot - IAM role AI Processor -->
-![AI Processor IAM role](/worlog/images/5-Workshop/5.6-Business-logic/ai-role.png)
+
 
 #### Step 3 — Create Lambda function
 
