@@ -1,5 +1,5 @@
 baseURL = "https://thanhprowin1.github.io/worlog/"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 
 # Chuyển Tiếng Việt làm ngôn ngữ mặc định
