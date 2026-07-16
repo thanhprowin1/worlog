@@ -57,7 +57,7 @@ Create the table that stores each user’s plan and remaining daily quota. Quota
 4. Wait until status is **Active**
 
 <!-- TODO: screenshot - table Active trong danh sách -->
-![wakan-users Active](/worlog/images/5-Workshop/5.5-Data-layer/users-active.png)
+![wakan-users Active](/worlog/images/5-Workshop/5.5-Data-layer/users-active1.png)
 
 #### Step 2 — Insert a sample user (test)
 
