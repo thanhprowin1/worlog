@@ -20,7 +20,7 @@ pre: " <b> 5.2. </b> "
   - Full service availability (Cognito, API Gateway, Lambda, DynamoDB, CloudFront, WAF, Secrets Manager)
 
 <!-- TODO: screenshot - cách đổi region trong console -->
-![Region selection](/worlog/images/5-Workshop/5.2-prerequisite/region.png)
+![Region selection](/worlog/images/5-Workshop/5.2-Prerequisite/region.png)
 
 #### IAM permissions
 
@@ -53,7 +53,7 @@ Attach the following policy to your IAM user/role before starting this workshop:
 ```
 
 <!-- TODO: screenshot - cách attach policy vào IAM user -->
-![IAM policy](/worlog/images/5-Workshop/5.2-prerequisite/iam-policy.png)
+![IAM policy](/worlog/images/5-Workshop/5.2-Prerequisite/iam-policy.png)
 
 #### AI API key
 
@@ -64,7 +64,7 @@ You will need an API key from an external AI provider (e.g., OpenAI, Anthropic).
 - Save it somewhere safe — you will paste it into Secrets Manager in a later step
 
 <!-- TODO: screenshot - nơi tạo API key trên provider -->
-![AI API key](/worlog/images/5-Workshop/5.2-prerequisite/api-key.png)
+![AI API key](/worlog/images/5-Workshop/5.2-Prerequisite/api-key.png)
 
 #### Frontend assets
 
