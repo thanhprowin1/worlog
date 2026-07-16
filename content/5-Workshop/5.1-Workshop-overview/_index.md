@@ -54,4 +54,4 @@ The system is organized into 4 layers:
 9. AI Processor fetches API key from Secrets Manager → builds prompt → calls AI model → validates JSON output → saves result to Cache table → returns to Orchestrator.
 10. Orchestrator decrements quota in DynamoDB → returns itinerary to frontend.
 
-#### Subscription tiers
+
