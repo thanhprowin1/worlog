@@ -32,3 +32,4 @@ By the end of this workshop, you will have a working end-to-end flow: sign in â†
 6. [Business logic with Lambda](5.6-Business-logic/)
 7. [Security, monitoring & cost control](5.7-Security-monitoring/)
 8. [Clean up](5.8-Cleanup/)
+9. [Demo](5.9-Demo/)
