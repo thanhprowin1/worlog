@@ -7,4 +7,4 @@ pre: " <b> 5.9. </b> "
 ---
 - Link Demo: https://www.wakan.id.vn
 
-- Link Video Demo: 
+- Link Video Demo: https://drive.google.com/drive/folders/1ALvE0fBSoipAOVucz_GqT2fMD38OcV_j?usp=drive_link
